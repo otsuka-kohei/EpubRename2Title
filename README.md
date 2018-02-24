@@ -8,7 +8,7 @@ Python 3系で使用してください．
 python epubRename2Title <epubファイルを配置したパス>  
 例：python ./epubRename2Title ./epubDir
 
-## Summaary
+## Summary
 This program renames epub file to original book title that on metadata.  
 This program renames all epub files in a directory that selected as argument.  
 Please use this program woth Python 3.  
