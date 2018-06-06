@@ -23,7 +23,6 @@ def get_epub_info(fname):
     tree = etree.fromstring(txt)
     opf_path = tree.xpath(
         'n:rootfiles/n:rootfile/@full-path', namespaces=ns)[0]
-    print(opf_path)
 
     # OPFファイルのpackage要素の中のmetadata要素を取得する
     opf = zip.read(opf_path)
