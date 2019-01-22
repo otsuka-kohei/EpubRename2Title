@@ -11,7 +11,7 @@ python epubRename2Title {epubファイルを配置したパス}
 ## Summary
 This program renames epub file to original book title that on metadata.  
 This program renames all epub files in a directory that selected as argument.  
-Please use this program woth Python 3.  
+Please use this program with Python 3.  
 Example: epubFile001.epub => Neon Genesis EVANGELION(1).epub
 ## How to use
 python epubRename2Title {epub files directory path}  
